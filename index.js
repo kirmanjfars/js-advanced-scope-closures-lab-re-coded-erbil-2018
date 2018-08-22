@@ -1,7 +1,14 @@
 function produceDrivingRange(blockRange ){
   return function(start, end){
-    let start = parseInt(start);
-    let end = parseInt(end);
-    let result = start - end;
+    let temp1= parseInt(start);
+    let temp2 = parseInt(end);
+    let result = temp2 - temp2;
+    
+    if(result > 4){
+      return
+    }else{
+      return 
+    }
+    
   }
 }
