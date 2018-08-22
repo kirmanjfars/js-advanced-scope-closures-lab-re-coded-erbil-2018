@@ -5,10 +5,10 @@ function produceDrivingRange(blockRange ){
     let temp3 = temp2 - temp2;
     let result = blockRange - temp3;
     
-    if(result > 4){
-      return '2 blocks out of range';
-    }else{
-      return 'within range by 4';
+    if(result > 0){
+       return `within range by ${difference}`
+    } else {
+      return `${Math.abs(difference)} blocks out of range`
     }
     
   }
