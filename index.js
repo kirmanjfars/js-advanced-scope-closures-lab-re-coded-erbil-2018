@@ -5,7 +5,7 @@ function produceDrivingRange(blockRange ){
     let result = temp2 - temp2;
     
     if(result > 4){
-      return
+      return '2 blocks out of range';
     }else{
       return 
     }
